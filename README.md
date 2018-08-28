@@ -6,18 +6,17 @@ Bubble Sort is the simplest sorting algorithm that works by swapping the adjacen
 Example:
 ```
 First Pass:
-
-  ( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.
-  ( 1 5 4 2 8 ) –>  ( 1 4 5 2 8 ), Swap since 5 > 4
-  ( 1 4 5 2 8 ) –>  ( 1 4 2 5 8 ), Swap since 5 > 2
-  ( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.
+ ( 5 3 6 7 2 1 8 ) –> ( 3 5 6 7 2 1 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 3.
+ ( 3 5 6 7 2 1 8 ) –>  ( 3 5 6 7 2 1 8  ), Swap if( 5 > 6) false sme as for 6>7
+ ( 3 5 6 7 2 1 8) –>  ( 3 5 6 2 7 1 8 ), Swap since 7 > 2
+ ( 3 5 6 2 7 1 8 ) –> ( 3 5 6 2 7 1 8 ), Now, since these elements are already in order (1 > 8), algorithm does not swap them.
   
 
 Second Pass:
-( 1 4 2 5 8 ) –> ( 1 4 2 5 8 )
-( 1 4 2 5 8 ) –> ( 1 2 4 5 8 ), Swap since 4 > 2
-( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
-( 1 2 4 5 8 ) –>  ( 1 2 4 5 8 )
+( 3 5 6 2 7 1 8) –> (3 5 6 2 7 1 8 )
+( 3 5 6 2 7 1 8 ) –> ( 3 5 6 2 7 1 8 )
+( 3 5 6 2 7 1 8 ) –> (3 5 2 6 7 1 8 )
+( 3 5 2 6 7 1 8 ) –>  ( 3 5 2 6 7 1 8)
 ....so on.
 ```
 ```
