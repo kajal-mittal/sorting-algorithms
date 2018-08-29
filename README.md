@@ -1,4 +1,7 @@
 # sorting-algorithms
+
+Implementation of various sorting algorithms in java.
+
 ### Bubble Sort:-
 
 Bubble Sort is the simplest sorting algorithm that works by swapping the adjacent elements if they are in wrong order.
