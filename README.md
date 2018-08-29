@@ -76,7 +76,7 @@ removes an element from an array,compares it against the largest value in the ar
             arr[i+1] = key;
         }
  ```
-### Time complexity(worst case): O(n^2)
+##### Time complexity(worst case): O(n^2)
 
 
        
