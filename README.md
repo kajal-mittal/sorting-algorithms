@@ -6,7 +6,7 @@ Implementation of various sorting algorithms in java.
 
 Bubble Sort is the simplest sorting algorithm that works by swapping the adjacent elements if they are in wrong order.
 
-Example:
+##### Example:
 ```
 First Pass:
  ( 5 3 6 7 2 1 8 ) –> ( 3 5 6 7 2 1 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 3.
@@ -32,6 +32,8 @@ Second Pass:
                 }
         } 
 ```
+ ##### Time Complexity:-
+So you've noticed that the total number of comparisons done is n + (n - 1) + ... + 2 + 1. This sum is equal to n * (n + 1) / 2  which is equal to 0.5 n^2 + 0.5 n which is clearly ``O(n^2)``.
 
 ### Selection Sort:-
 
