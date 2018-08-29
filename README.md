@@ -37,6 +37,8 @@ So you've noticed that the total number of comparisons done is n + (n - 1) + ...
 
 ### Selection Sort:-
 
+The Selection sort algorithm is based on the idea of finding the minimum or maximum element in an unsorted array and then putting it in its correct position in a sorted array.
+
 ```
 for (int i = 0; i < arr.length - 1; i++) {
             int min = i;
@@ -51,6 +53,10 @@ for (int i = 0; i < arr.length - 1; i++) {
         }
 
 ```
+##### Time Complexity:
+To find the minimum element from the array of n elements, n comparisons are required. After putting the minimum element in its proper position, the size of an unsorted array reduces to n-1  and then n-2 comparisons are required to find the minimum in the unsorted array.
+
+Therefore n + (n - 1) + ... + 2 + 1=n*(n+1)/2  comparisons and  swaps result in the overall complexity of  ``O(n^2)``.
 
 
 ### Insertion Sort:-
